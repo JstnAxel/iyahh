@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Saya</title>
+  <style>
+    body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 kolom dengan lebar sama */
+  grid-template-rows: auto auto auto; /* Baris akan menyesuaikan kontennya */
+  gap: 20px;
+  padding: 20px;
+}
+
+.header {
+  grid-area: 1 / 1 / 2 / 3; /* Menggunakan grid-area untuk menentukan posisi */
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.profile-info {
+  grid-area: 2 / 1 / 3 / 2;
+  background-color: #2ecc71;
+  padding: 10px;
+}
+
+.skills {
+  grid-area: 2 / 2 / 3 / 3;
+  background-color: #f39c12;
+  padding: 10px;
+}
+
+.contact {
+  grid-area: 3 / 1 / 4 / 3;
+  background-color: #e74c3c;
+  color: white;
+  padding: 10px;
+}
+
+/* Media Queries untuk Responsif */
+@media screen and (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr; /* 1 kolom untuk mode responsif */
+  }
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="header">Profil</header>
+    <div class="profile-info">
+        <p>Justin Axel Permana Wiyanto</p>
+        <p>XI-SIJA-2</p>
+        <p>16</p>
+    </div>
+    <div class="skills">
+        <ol>
+            <li>Programming</li>
+            <li>Design</li>
+            <li>Gaming</li>
+        </ol>
+    </div>
+    <div class="contact">
+        <ul>
+            <li>No: 085850646955</li>
+            <li>Instagram: _justinaxel</li>
+        </ul>
+    </div>
+  </div>
+</body>
+</html>

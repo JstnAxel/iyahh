@@ -1,0 +1,183 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
+ </head>
+ <body>
+    
+        <nav>
+            <div class="logo">folio<b>.</b></div>
+            <ul class="navItems">
+                <li><a href="#rumah" class="active">home</a></li>
+                <li><a href="#sekil">skills</a></li>
+                <li><a href="#blog">blog</a></li>
+            </ul>
+            <div class="links">
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="https://instagram.com/_justinaxel?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+            </div>
+        </nav>
+    <section class="container" id="rumah">
+        <div class="wrapper" id="rumah">
+            <div class="cols cols0">
+                <span class="topline">Hello</span>
+                <h1>I'm <span id="multiText" class="multiText"></span></h1>
+                <p>Welcome to my portfolio website, here I present a lot of my experiences in the world of programming and designing, I will continue to develop my skills to continue to progress and become a strong, moral and digital-minded person.</p>
+                <div class="btsn">
+                    <button class="btn">Download Portofolio</button>
+                    <button class="btn">Hire Me</button>
+                </div>
+            </div>
+            <div class="cols cols1">
+                <div class="imgbox">
+                <img src="profil.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        var typed = new Typed('#multiText',{
+            strings : ["coder","designer"],
+            loop : true,
+            typeSpeed: 100,
+            backSpeed : 80,
+            backDelay : 1500
+        });
+    </script>
+
+<section class="containeryak" id="sekil">
+    <div class="head"><h2>Skills</h2><h5>My Passion</h5></div>
+    <div class="row">
+        <div class="col-md-3" data-text="HTML"><a href="#modal1"><img src="html.png" alt=""></a></div>
+        <div class="col-md-3" data-text="CSS"><a href="#modal2"><img src="css.png" alt=""></a></div>
+        <div class="col-md-3" data-text="Videography"><a href="#modal3"><img src="video.png" alt=""></a></div>
+        <div class="col-md-3" data-text="Illustrator"><a href="#modal4"><img src="illustrator.png" alt=""></a></div>
+    </div>
+    <div class="row">
+        <div class="col-md-3" data-text="Figma"><a href="#modal5"><img src="figma.png" alt=""></a></div>
+        <div class="col-md-3" data-text="MYSql"><a href="#modal6"><img src="sql-server.png" alt=""></a></div>
+        <div class="col-md-3" data-text="PHP"><a href="#modal7"><img src="php.png" alt=""></a></div>
+        <div class="col-md-3" data-text="MS.Excel"><a href="#modal8"><img src="excel.png" alt=""></a></div>
+    </div>
+    <div id="modal1">
+        <div class="modalcontent">
+            <a href="#sekil" class="closebtn">&times;</a>
+            <h1>HTML</h1>
+            <h3>Competent</h3>    
+        </div>
+    </div>
+    <div id="modal2">
+        <div class="modalcontent">
+            <a href="#sekil" class="closebtn">&times;</a>
+            <h1>CSS</h1>
+            <h3>Competent</h3>    
+        </div>
+    </div>
+    <div id="modal3">
+        <div class="modalcontent">
+            <a href="#sekil" class="closebtn">&times;</a>
+            <h1>Videography</h1>
+            <h3>Competent</h3>    
+        </div>
+    </div>
+    <div id="modal4">
+        <div class="modalcontent">
+            <a href="#sekil" class="closebtn">&times;</a>
+            <h1>Illustrator</h1>
+            <h3>Proficient</h3>    
+        </div>
+    </div>
+    <div id="modal5">
+        <div class="modalcontent">
+            <a href="#sekil" class="closebtn">&times;</a>
+            <h1>Figma</h1>
+            <h3>Expert</h3>    
+        </div>
+    </div>
+    <div id="modal6">
+        <div class="modalcontent">
+            <a href="#sekil" class="closebtn">&times;</a>
+            <h1>MYSql</h1>
+            <h3>Advance Beginner</h3>    
+        </div>
+    </div>
+    <div id="modal7">
+        <div class="modalcontent">
+            <a href="#sekil" class="closebtn">&times;</a>
+            <h1>PHP</h1>
+            <h3>Advance Beginner</h3>    
+        </div>
+    </div>
+    <div id="modal8">
+        <div class="modalcontent">
+            <a href="#sekil" class="closebtn">&times;</a>
+            <h1>Ms.Excel</h1>
+            <h3>Proficient</h3>    
+        </div>
+    </div>
+</section>
+<section class="kontener" id="blog">
+    <div class="bubel">
+    <div class="judul"><h2>Blog</h2><h5>Look For My Work</h5></div>
+    <div class="site-container">
+        <div class="article-container">
+            <a href="#">
+                <article class="article-card">
+                    <figure class="article-image">
+                        <img src="WD.png" alt="labuan_bajo" />
+                    </figure>
+                    <div class="article-content">
+                        <h3 class="card-title">Web Design</h3>
+                        <p class="card-price">Figma</p>
+                    </div>
+                </article>
+            </a>
+
+            <a href="#">
+                <article class="article-card">
+                    <figure class="article-image">
+                        <img src="DT.png" alt="raja_ampat" />
+                    </figure>
+                    <div class="article-content">
+                        <h3 class="card-title">UI/UX</h3>
+                        <p class="card-price">Design Thinking</p>
+                    </div>
+                </article>
+            </a>
+
+            <a href="#">
+                <article class="article-card">
+                    <figure class="article-image">
+                        <img src="FE.png" alt="pulo_cinta" />
+                    </figure>
+                    <div class="article-content">
+                        <h3 class="card-title">Front End</h3>
+                        <p class="card-price">HTML, CSS, JavaScript</p>
+                    </div>
+                </article>
+            </a>
+            <a href="#">
+                <article class="article-card">
+                    <figure class="article-image">
+                        <img src="BE.png" alt="Kepulauan_KEI" />
+                    </figure>
+                    <div class="article-content">
+                        <h3 class="card-title">Back End</h3>
+                        <p class="card-price">Phyton, PHP, Java</p>
+                    </div>
+                </article>
+            </a>
+        </div>
+    </div>
+    </div>
+</section>
+<script src="index.js"></script>
+ </body>
+ </html>
